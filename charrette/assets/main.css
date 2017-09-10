@@ -1,0 +1,532 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: absolute;
+	width: 100%;
+	height:auto;
+}
+
+/* items */
+
+.item {
+	width: 50%;
+    height: 250px;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+	float: left; 
+}
+
+#button1{
+	background-color: #9DE0AD;
+}
+#button2{
+	background-color: #F4DDB4;
+
+	
+}
+#button2:active::after {
+	content: 'WOW';
+	color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+}
+
+
+#button3{
+	background-color: #F15D27 ;
+	cursor: help;
+	
+}
+#button4{
+	background-color: #FEBE10;
+	cursor: crosshair;
+
+	
+}
+
+
+#button5{
+  background-color: #21839B;
+}
+
+#buttonclick{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    background-color: #C8C8A9 ;
+}
+
+#button6{
+	background-color: #E5E4E3;
+
+	
+}
+#button6:active::after {
+	content: '( ͡° ͜ʖ ͡°)       |°з°|';
+	color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.circle {
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    border-radius: 50px;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button7 .circle {
+	background-color: #3100BC;
+  
+}
+
+.square {
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#button7{
+  background-color: #E41E26;
+
+}
+
+.circle2 {
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #E41E26;
+    border-radius: 50px;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square2 {
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #E41E26;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	background-color: #E41E26;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+}
+
+#button8 .circle2 {
+	background-color: #E41E26;
+    -webkit-transition: all 900ms ease;
+                -moz-transition: all 900ms ease;
+                -ms-transition: all 900ms ease;
+                -o-transition: all 900ms ease;
+                transition: all 900ms ease;
+}
+
+#button8{
+  background-color: #3100BC;
+}
+
+
+#button9{
+  background-color: #91CFB4;
+}
+.square9 {
+    width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .square9:active{
+ 	width:100px;
+    height:100px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(15%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+
+#button10{
+  background-color: #FF2E06;
+}
+
+#bar {
+    height: 39px;
+    width: 10px;
+    left: 100px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+
+  #bar.clicked {
+      width: 200px;
+    }
+
+
+#button11{
+  background-color: #0BA8E1;
+}
+.square11 {
+    width:30px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+ }
+
+
+.square11:hover{
+  	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(50%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+
+
+#button12{
+  background-color: #9EB841;
+}
+.square12 {
+    width:30px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+    background-color: #FEBE10;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+ }
+
+
+.square12:hover{
+  	animation-name: bounce;
+  transform-origin: center bottom;
+
+	animation-duration: 100ms;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to { 
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+#button13{
+	background-color: #F4DDB4;
+
+	
+}
+#button13:active {
+	content: 'byee';
+	color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+}
+
+#button14{
+	background-color: #F4DDB4;
+}
+	
+#button14::after {
+	content: 'WHO DAT BOI?';
+	color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+}
+
+
+#button14:hover::after {
+	content: 'WHO HIM IS?';
+	color: white;
+}
+
+
+#button15 {
+    background-color: green;
+}
+
+
+#yess {
+	cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 80%;
+    max-height: 400px;
+    margin: 0;
+    -webkit-transition: all 2000ms ease;
+    -moz-transition: all 2000ms ease;
+    -ms-transition: all 2000ms ease;
+    -o-transition: all 2000ms ease;
+    transition: all 2000ms ease;
+    word-break: break-all;
+    color:white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#button16 {
+    background-color: green;
+}
+/*#button13.item: : after {
+ animation-name: zoomOutUp;
+ animation-duration: 100ms;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+*/
+
+/* .square11:active{
+  	animation-name: tada;
+	-webkit-animation-name: tada;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+*/
+
+
+/* example buttons */
+
+/*#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3;
+	background-color: green;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}*/
+
+/* example buttons */
+
+/*#button-2::after {
+	content: 'this is added after the content inside the button';
+	color: white;
+}
+*/
+
