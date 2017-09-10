@@ -372,7 +372,7 @@ body {
 }
 
 #button13{
-	background-color: #F4DDB4;
+	background-color: #FF9999;
 
 	
 }
@@ -392,7 +392,7 @@ body {
 }
 
 #button14{
-	background-color: #F4DDB4;
+	background-color: #F9D946;
 }
 	
 #button14::after {
@@ -418,7 +418,7 @@ body {
 
 
 #button15 {
-    background-color: green;
+    background-color: #D78A28;
 }
 
 
@@ -449,6 +449,504 @@ body {
 #button16 {
     background-color: green;
 }
+
+#button17{
+  background-color: #43ADA8;
+}
+
+#bar17 {
+    height: 39px;
+    width: 10px;
+    left: 100px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+
+  #bar17.clicked {
+      width: 200px;
+      transform: translate(100px);
+      animation: ease;
+    }
+
+#button18{
+  background-color: #0BA8E1;
+}
+
+.square18 {
+    width:30px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+ }
+ .square18.clicked {
+    width:300px;
+    height:300px;
+    position: absolute;
+   transform: translate(-50%, -50%);
+   transition: 2s;
+ }
+
+#button19 {
+    background-color: #8FCEDB;
+    cursor:zoom-in;
+}
+
+#button20 {
+    background-color: #E8495F;
+    cursor:zoom-out;
+}
+
+
+#button21{
+  background-color: #F7DB4E;
+}
+
+.square21 {
+    content: "too thin"
+    width:30px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+    font-weight: bold;
+    border: none;
+    color: white;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+ .square21.clicked {
+    position: absolute;
+    transform: scale(2, 0.5);
+   transition: 1s;
+ }
+
+
+#button22{
+  background-color: #F26B37;
+}
+
+.square22 {
+    content: 'top heavy';
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+ .square22.clicked {
+    position: absolute;
+    transform: rotate(0.5turn);
+   transition: 1s;
+ }
+
+
+#button23{
+  background-color: blue;
+}
+
+.square23 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    cursor: crosshair;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+
+ .square23:active { 
+    background-color: yellow;
+}
+
+
+#button24{
+  background-color: yellow;
+}
+
+.square24 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    cursor: crosshair;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+
+ .square24:active { 
+    background-color: blue;
+}
+
+#button25{
+  background-color: orange;
+}
+
+.square25 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    cursor: crosshair;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+
+ .square25:active { 
+    background-color: green;
+     transform: perspective( 600px ) rotateY( 180deg );
+      transition: 1s;
+}
+
+
+#button26{
+  background-color: green;
+}
+
+.square26 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    cursor: crosshair;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+
+ .square26:active { 
+    background-color: orange;
+     transform: perspective( 1200px ) rotateX( 180deg );
+      transition: 1s;
+}
+
+#button27{
+  background-color: #CD527A;
+}
+
+.square27 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    cursor: zoom-in;
+
+    /*transform: translate(-50%, -50%);*/
+ }
+
+ .square27:active { 
+    transform: scale(2.5);
+    transform: perspective(1200px) translateZ(800px);
+      transition: 1s;
+      text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    cursor: zoom-in;
+}
+
+#button28{
+  background-color: #43ADA8;
+}
+
+#bar28 {
+    height: 39px;
+    width: 10px;
+    left: 100px;
+    background-color: #F8D422;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+
+  #bar28.clicked {
+    border-radius: 1000px;
+    width:50px;
+    height:50px;
+     transform: translate(100px) rotate(90deg);
+    animation:ease;
+    animation-name: rotateOut;
+    transform-origin: center bottom;
+
+    animation-duration: 100ms;
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes rotateOut {
+  from {
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  }
+}
+
+
+#button29{
+    background-color: #F4DDB4;
+
+    
+}
+
+#button29.clicked{
+    background-color: #C7C8A9;
+
+    
+}
+
+.ON{
+    color: #C7C8A9;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+
+}
+
+.OFF{
+    color:#F4DDB4;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40pt;
+
+}
+
+p.__::selection {
+    color: #5CFFD0;
+   background: #ffb7b7;
+}
+
+p.__ {
+    color: #5CFFD0;
+}
+
+
+
+#button30{
+    background-color: #DCEBC2;
+}
+
+#button30.clicked{
+    background-color: #5A4F50;
+ 
+}
+
+#button31{
+    background-color: #5CFFD0;
+}
+
+#button32{
+  background-color: #0BA8E1;
+}
+
+.square32 {
+    width:30px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+    background-color: #3100BC;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+ }
+
+.square32.clicked {
+    width:500px;
+    height:500px;
+    top: -20%;
+    left: 17%;
+     transform: translate(100px) rotate(90deg);
+    animation:ease;
+     animation-name: rotateIn;
+
+    animation-duration: 40ms;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes rotateIn {
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+#button33{
+  background-color: #E8495F;
+} 
+
+
+#button33:hover {
+    transform: rotate(90deg) scaleX(60);
+    opacity: 1; 
+} 
+
+#button34{
+  background-color: #2A01A7;
+} 
+
+#button34:hover {
+    background: pink;
+    opacity: 1;
+    animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 1;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(80deg);
+  }
+  100% {
+    transform: skewX(-80deg);
+  }
+}
+
+#button35{
+  background-color: #83AF9A;
+} 
+
+#button35:active {
+    background: pink;
+    opacity: 1;
+    animation: skewe 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 1;
+}
+
+@keyframes skewe {
+  0% {
+    transform: skewY(100deg);
+  }
+  100% {
+    transform: skewY(-100deg);
+  }
+}
+
+#button36{
+  background-color: #F8D422;
+} 
+
+#button36:active {
+    background: pink;
+     animation: skewed 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 1;
+}
+
+@keyframes skewed {
+  0% {
+    transform: skew(20deg);
+  }
+  100% {
+  transform: rotate(164deg) scale(0.968) skew(31deg) translate(-122px);
+
+  }
+}
+
+
+    
+}
+
+
+
+}
+
+
+
+
+
+
+
 /*#button13.item: : after {
  animation-name: zoomOutUp;
  animation-duration: 100ms;
@@ -511,16 +1009,6 @@ body {
 
 /* example buttons */
 
-/*#button-1:hover {
-	transform: rotate(90deg) scale(1.5);
-	opacity: .3;
-	background-color: green;
-}
-
-#button-1:active {
-	background: pink;
-	opacity: 1;
-}*/
 
 /* example buttons */
 

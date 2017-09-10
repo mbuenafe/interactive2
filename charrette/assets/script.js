@@ -36,7 +36,7 @@ $(document).ready(function(){
         }
     });
 
-/*---------8---------*/
+    /*---------8---------*/
 
   var button8= false;
     $("#button8").click(function(){
@@ -64,21 +64,74 @@ $("#yess").click(function(){
     });
 
 
-   
+   /*---------17---------*/
 
-
-
-
-
-
-
-
-
-	// $('#button-4').mouseover(function() {
-	// 	$('.item').animate({
-	// 		marginLeft: '1in'
-	// 	}, 1000 );
-	// });
+$('#bar17').on('click', function() {
+            $(this).toggleClass('clicked');
+            
 });
+
+
+ /*---------18---------*/
+
+$('.square18').on('click', function() {
+            $(this).toggleClass('clicked');
+            
+});
+
+
+/*---------20---------*/
+$("#button20").click(function () {
+       alert("BE GONE");
+   });
+
+ /*---------21---------*/
+
+$('.square21').on('click', function() {
+            $(this).toggleClass('clicked');
+            
+});
+
+ /*---------22---------*/
+
+$('.square22').on('click', function() {
+            $(this).toggleClass('clicked');
+            
+});
+/*---------28---------*/
+
+$('#bar28').on('click', function() {
+            $(this).toggleClass('clicked');
+            
+});
+
+/*---------29---------*/
+
+$('#button29').on('click', function() {
+            $('#button30').toggleClass('clicked');
+            
+});
+
+/*---------30---------*/
+
+$('#button30').on('click', function() {
+            $('#button29').toggleClass('clicked');
+            
+});
+
+
+/*---------28---------*/
+
+$('.square32').on('click', function() {
+            $(this).toggleClass('clicked');
+            
+});
+
+});
+
+
+
+
+
 
    
