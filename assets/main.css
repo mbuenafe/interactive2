@@ -60,5 +60,6 @@ a{
     padding-left: 15px;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: bold;
 
 }
