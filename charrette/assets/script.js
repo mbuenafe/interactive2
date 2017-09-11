@@ -16,10 +16,12 @@ $(document).ready(function(){
     });
     
 
+
 	/*---------6---------*/
 	$('#button6').click(function() {
 		setInterval(function(){ alert("( ͡° ͜ʖ ͡°)       |°з°|"); }, 3000);
 	});
+
 
 	/*---------7---------*/
 
@@ -36,6 +38,8 @@ $(document).ready(function(){
         }
     });
 
+
+
     /*---------8---------*/
 
   var button8= false;
@@ -51,17 +55,22 @@ $(document).ready(function(){
         }
     });
 
+
+
 /*---------10---------*/
 
 $('#bar').on('click', function() {
 			$(this).toggleClass('clicked');
 			
 });
+
+
 /*---------15---------*/
 
 $("#yess").click(function(){
         $(this).append("I");
     });
+
 
 
    /*---------17---------*/
@@ -120,14 +129,106 @@ $('#button30').on('click', function() {
 });
 
 
-/*---------28---------*/
+/*---------32---------*/
 
 $('.square32').on('click', function() {
             $(this).toggleClass('clicked');
             
 });
 
+    /*---------38---------*/
+    $('#button38').click(function() {
+        setInterval(function(){ alert("(*ゝω・)ﾉ"); }, 1000);
+    });
+
+
+/*---------40---------*/
+
+ $("#button40").click(function(){
+        $(this).animate({height: "100px"});
+        $(this).animate({width: "200px"});
+    });
+
+
+ /*---------41---------*/
+
+$("#bar41").click(function(){
+     $(this).toggleClass('clicked');
+     });
+$("#bar41-1").click(function(){
+     $(this).toggleClass('clicked');
+     });
+
+$("#bar41-2").click(function(){
+     $(this).toggleClass('clicked');
+     });
+
+$("#bar41-3").click(function(){
+     $(this).toggleClass('clicked');
+     });
+/*---------42---------*/
+
+$("#button42").click(function(){
+    //Animação com loop infinito (até clicar)
+    $("#d2").toggleClass("rotating");
+    $("#button42").toggleClass("spinEffect");
+  });
+/*---------43---------*/
+
+ $("#button43").click(function(){
+        $(this).animate({height: "500px"});
+        $(this).animate({width: "500px"});
+    });
+/*---------44---------*/
+
+ $("#button44").hover(function(){
+        $(this).animate({height: "1000px"});
+        $(this).animate({width: "500px"});
+    });
+
+/*---------45---------*/
+
+ $("#button45").click(function(){
+        $(this).animate({height: "100px"});
+        $(this).animate({width: "500px"});
+    });
+
+
+/*---------47---------*/
+
+$("#button47").click(function(){
+    //Animação com loop infinito (até clicar)
+    $("#d2").toggleClass("rotating");
+    $("#button47").toggleClass("spinEffect2");
+  });
+
+$("#button48").click(function(){
+    //Animação com loop infinito (até clicar)
+    $("#d2").toggleClass("rotating");
+    $("#button48").toggleClass("spinEffect3");
+  });
+
+ $('#button49').click(function(){
+      $(this).animate({width: '1420px'}, 1600);
+      $(this).animate({width: '50px'}, 1600);
+  });
+
+ $("#button50").click(function(){
+    //Animação com loop infinito (até clicar)
+    $("#d2").toggleClass("rotating");
+    $("#button50").toggleClass("spinEffect4");
+  });
+
 });
+
+
+
+
+
+
+
+
+
 
 
 

@@ -934,87 +934,261 @@ p.__ {
 }
 
 
+#button37{
+    background-color: #FF9999;
+
     
 }
+#button37:active {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    animation: moved 2s;
+}
+
+@keyframes moved {
+   0%{
+     transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-250px);
+
+    }
+
+    100%{
+        transform: translateY(-500px);
+    }
+}
 
 
+#button38{
+    background-color: red;
+
+    
+}
+#button38:active::after {
+    content: '(*ゝω・)ﾉ|';
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+#button39{
+    background-color: #EDBF2E;
+
+}
+#button39:active{
+    background-color: blue;
+    width: 100%;
+    transform: translateY(-400px);
 
 }
 
 
+#button40{
+    background-color: #23408B;
 
-
-
-
-
-/*#button13.item: : after {
- animation-name: zoomOutUp;
- animation-duration: 100ms;
-	-webkit-animation-duration: 1.5s;
-
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
 }
 
-@keyframes zoomOutUp {
-  40% {
-    opacity: 1;
-    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
-    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+#button41{
+    background-color: red;
+}
+#bar41 {
+    height: 39px;
+    width: 10px;
+    left: 100px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
   }
 
-  to {
-    opacity: 0;
-    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
-    transform-origin: center bottom;
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  #bar41-1 {
+    height: 39px;
+    width: 10px;
+    left: 150px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
   }
+
+
+  #bar41-2 {
+    height: 39px;
+    width: 10px;
+    left: 200px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+   #bar41-3 {
+    height: 39px;
+    width: 10px;
+    left: 200px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+
+  #bar41.clicked {
+      transform: rotateX(90deg);
+      transition: 1s;
+    }
+
+#bar41-1.clicked {
+      transform: rotateX(90deg);
+      transition: 1s;
+    }
+
+    #bar41-2.clicked {
+      transform: rotateX(90deg);
+      transition: 1s;
+    }
+
+ #bar41-3.clicked {
+      transform: rotateX(90deg);
+      transition: 1s;
+    }
+
+#button42{
+    background-color: orange;
 }
-*/
 
-/* .square11:active{
-  	animation-name: tada;
-	-webkit-animation-name: tada;
-
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
+.spinEffect{
+   transform: rotate(15deg);
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
 }
 
-@keyframes tada {
+#button43{
+    background-color: #85CA9A;
+
+}
+#button44{
+    background-color: red;
+
+}
+
+#button45{
+    background-color: #F7903D;
+
+}
+
+#numbers{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 50pt;
+    height:224px;
+    overflow: auto;
+    color: white;
+
+}
+
+#button46{
+  background-color: #9EB841;
+} 
+
+#button46:active {
+     animation: rollIn 3s infinite;
+  animation-direction: alternate;
+  opacity: 1;
+}
+
+
+@keyframes rollIn {
   from {
-    transform: scale3d(1, 1, 1);
-  }
-
-  10%, 20% {
-    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-  }
-
-  30%, 50%, 70%, 90% {
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-  }
-
-  40%, 60%, 80% {
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
   }
 
   to {
-    transform: scale3d(1, 1, 1);
+    opacity: 1;
+    transform: none;
   }
 }
-*/
+
+#button47{
+  background-color: #557980;
+} 
 
 
-/* example buttons */
+.spinEffect2{
+   transform: translateY(300px);
+   transform: rotateX(180deg);
+      transition: 2s;
 
-
-/* example buttons */
-
-/*#button-2::after {
-	content: 'this is added after the content inside the button';
-	color: white;
 }
-*/
 
+#button48{
+  background-color: #F7A8A6;
+} 
+
+
+.spinEffect3{
+   transform: translateY(300px);
+   transform: rotateY(720deg);
+      transition: 2s;
+
+}
+
+#button49{
+  background-color: yellow;
+} 
+#day{
+      color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+#button50{
+  background-color: black;
+} 
+
+
+.spinEffect4{
+    z-index: 9999; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+
+}
+
+#night{
+      color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+}
+}
