@@ -46,3 +46,19 @@ img {
     top: 30%;
     left: 280%;
 } 
+
+li{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration : none; 
+    color : #000;
+    line-height: 10px;
+    font-size: 12pt;
+    padding-left: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
