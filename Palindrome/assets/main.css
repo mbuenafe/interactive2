@@ -3,36 +3,46 @@ body {
 	
 }
 a{font-family: "HelveticaNeue-CondensedBold", Helvetica, Arial, sans-serif;
+  font-size: 50pt
   color: white;
-  font-size: 50pt;
+
 
 }
 p{
 	font-family: "HelveticaNeue-CondensedBold", Helvetica, Arial, sans-serif;
-	color: white;
- 	font-size: 65pt;
-  margin: auto;
-  text-align: center;
-  margin-top: calc(50vh - 70px);
+    color: white;
+    font-size: 65pt;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(50vh - 70px);
 }
 
+.item:hover{
+  color: #F15D27;
+
+}
 
 #wow{
   position: relative;
-  animation: skewe 7s infinite;
-  margin-left: -40px;
+  animation: skewe 7s infinite ease	;
+  margin-left: 100px;
   transform-origin: center;
   animation-direction: alternate;
-
+z-index:555555 !important;
 	opacity: 1;
 }
 
+#wow:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
+
 @keyframes skewe {
-  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-    16%      { -webkit-transform: rotateY(-180deg);                            }
-    33%      { -webkit-transform: rotateY(20deg) rotateZ(-100deg);            }
-    68%      { -webkit-transform: rotateY(-180deg)      }
-    100%      { -webkit-transform: rotateY(-180deg) rotateX(180deg) ;           }
+  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
+    25%      { -webkit-transform: rotateX(180deg);                            }
+    50%      { -webkit-transform: rotateX(-180deg);            }
+    75%      { -webkit-transform: rotateX(180deg)      }
+    100%      { -webkit-transform: rotateX(-180deg) ;           }
   }
 
     /*---------AVID DIVA---------*/
@@ -43,25 +53,28 @@ p{
   top: 0px;
   left: calc(50vw - 150px);
   margin: auto;
-    transform-origin: center;
+  animation-direction: alternate;
   text-align: center;
   margin-top: calc(50vh - 70px);
-  animation: skewee 7s infinite;
-  animation-direction: alternate-reverse; 
-  animation-timing-function: ease;
+  animation: skewee 7s infinite ease;
+    z-index:555555 !important;
 
 }
 
 @keyframes skewee {
-  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-    25%      { -webkit-transform: rotateY(-180deg )rotateZ(10deg); ;                           }
-    50%      { -webkit-transform: rotateY(20deg) rotateZ(40deg);            }
-    75%      { -webkit-transform: rotateY(-180deg) rotateZ(140deg);  );           }
-    100%      { -webkit-transform: rotateX(-180deg);           }
+  from,to 
+  	0%      { -webkit-transform: rotateY(0deg) ;           }
+    25%      { -webkit-transform: rotateY(-180deg);                            }
+    50%      { -webkit-transform: rotateY(180deg);            }
+    75%      { -webkit-transform: rotateY(-180deg)      }
+    100%      { -webkit-transform: rotateY(0deg) ;           }
   }
 
 
 
+#diva:hover{
+  color: #F15D27;
+}
 
 .whole2{
   opacity:0;
@@ -88,15 +101,19 @@ p{
   animation: skewer 7s infinite;
   animation-direction: alternate-reverse; 
   animation-timing-function: ease;
-
+z-index:555555 !important;
+}
+#deified:hover{
+  color: #F15D27;
 }
 
+
 @keyframes skewer {
-  from,to  {}
-    16%      { -webkit-transform: rotateY(120deg)  rotateZ(45deg)                          }
-    33%      { -webkit-transform: rotateY(-20deg) rotateX(90deg) scaleX(4)   rotateZ(45deg)          }
-    68%      { -webkit-transform: rotateX(270deg) rotateZ(45deg)    }
-    100%      { -webkit-transform: rotateY(-140deg) rotateZ(45deg) ;           }
+  from,to  { -webkit-transform: rotateX(90deg) rotateY(9deg) }
+    25%      { -webkit-transform: rotateX(180deg)  rotateZ(45deg)                          }
+    50%      { -webkit-transform: rotateY(-20deg) rotateX(90deg) rotateZ(45deg)          }
+    75%      { -webkit-transform: rotateX(180deg) rotateZ(45deg)    }
+    100%      { -webkit-transform:  rotateY(-20deg) rotateX(180deg) ;           }
   }
 
 
@@ -125,15 +142,21 @@ p{
   animation: skewet 7s infinite;
   animation-direction: alternate-reverse; 
   animation-timing-function: ease;
+    z-index:555555 !important;
 
 }
 
+#dog:hover{
+
+  color: #F15D27;
+}
+
 @keyframes skewet {
-  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-    25%      { -webkit-transform: rotateY(180deg) rotateZ(15deg);                           }
-    50%      { -webkit-transform: rotateX(70deg) rotateZ(40deg);            }
-    75%      { -webkit-transform: rotateY(-180deg)  transform: skew(50deg);           }
-    100%      { -webkit-transform: rotateX(45deg) scaleX(2);           }
+from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
+    25%      { -webkit-transform: rotateX(180deg)  rotateZ(-45deg)                          }
+    50%      { -webkit-transform: rotateY(-20deg) rotateX(90deg) rotateZ(-45deg)          }
+    75%      { -webkit-transform: rotateX(180deg) rotateZ(-45deg)    }
+    100%      { -webkit-transform: rotateX(180deg) rotateZ(60deg) ;           }
   }
 
 
@@ -164,14 +187,19 @@ p{
 
 }
 
-@keyframes skewy {
-  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-    25%      { -webkit-transform: rotateX(-180deg) rotateZ(170deg); ;                           }
-    50%      { -webkit-transform: rotateY(180deg)  scaleX(3);            }
-    75%      { -webkit-transform: rotateY(275deg) transform:rotateX(-30deg); ;           }
-    100%      { -webkit-transform: rotateY(-180deg) rotateZ(150deg);;           }
-  }
+#olive:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
 
+
+@keyframes skewy {
+from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
+    25%      { -webkit-transform: rotateX(190deg)  rotateZ(90deg)                          }
+    50%      { -webkit-transform: rotateY(50deg) rotateX(90deg) rotateZ(90deg)          }
+    75%      { -webkit-transform: rotateY(50deg)rotateX(190deg) rotateZ(90deg)    }
+    100%      { -webkit-transform:rotateY(50deg) rotateX(90deg) rotateZ(90deg) ;           }
+  }
 
 
 .whole5{
@@ -199,12 +227,17 @@ p{
   animation-timing-function: ease;
 
 }
+#ufo:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
+
 
 @keyframes skewu {
   from,to  
     25%      { -webkit-transform: rotateY(-180deg);                          }
     50%      { -webkit-transform: rotateZ(160deg) rotateX(40deg);            }
-    75%      { -webkit-transform: rotateY(-180deg) scaleX(6) scaleY(5);           }
+    75%      { -webkit-transform: rotateY(-180deg)           }
     100%      { -webkit-transform: rotateY(-180deg) rotate(150deg);           }
   }
 
@@ -230,17 +263,22 @@ p{
   text-align: center;
   margin-top: calc(50vh - 70px);
   animation: skewo 7s infinite;
-  animation-direction: alternate-reverse; 
+  animation-direction: alternate; 
   animation-timing-function: ease;
 
 }
+#emily:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
+
 
 @keyframes skewo {
-  from,to  
-    25%      { -webkit-transform: rotateY(-180deg) rotateX(245deg));                           }
-    50%      { -webkit-transform: rotateY(220deg) rotateZ(-45deg);            }
-    75%      { -webkit-transform: rotateY(-700deg)rotateZ(-45deg) rotateX(180deg) ;           }
-    100%      { -webkit-transform: rotateY(180deg)rotateZ(-45deg) rotateX(100deg);           }
+  from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg)}
+    25%      { -webkit-transform: rotateY(-245deg) rotateX(180deg));                           }
+    50%      { -webkit-transform: rotateY(245deg)             }
+    75%      { -webkit-transform: rotateY(-245deg)rotateX(180deg) ;           }
+    100%      { -webkit-transform: rotateY(180deg);           }
   }
 
 
@@ -270,12 +308,18 @@ p{
 
 }
 
+#lemons:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
+
+
 @keyframes skewp {
-  from,to  
-     25%      { -webkit-transform: rotateY(-180deg) rotateX(245deg));                           }
-    50%      { -webkit-transform: rotateY(220deg) rotateZ(45deg);            }          
-    75%      { -webkit-transform: rotateX(140deg) rotateZ(-100deg);           }
-    100%      { -webkit-transform: rotateY(-180deg) rotateX(-180deg) scaleX(5) rotateZ(120deg)          }
+    from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg); }
+    25%      { -webkit-transform: rotateY(-180deg )rotateZ(10deg); ;                           }
+    50%      { -webkit-transform: rotateY(20deg) rotateZ(40deg);            }
+    75%      { -webkit-transform: rotateY(-180deg) rotateZ(10deg);  );           }
+    100%      { -webkit-transform: rotateX(-180deg)rotateZ(-40deg);  ;           }
   }
 
 
@@ -305,12 +349,17 @@ p{
 
 }
 
+#elk:hover{
+  z-index:555555 !important;
+  color: #F15D27;
+}
+
 @keyframes skews {
-  from,to  { ; }
-    25%      { -webkit-transform: rotateY(-180deg) skewY(140deg); ;                           }
-    50%      { -webkit-transform: rotateY(20deg) rotateZ(40deg);            }
-    75%      { -webkit-transform: rotateY(-180deg) rotateZ(165deg)skewY(140deg);           }
-    100%      { -webkit-transform: rotateY(-180deg);           }
+  from,to   { -webkit-transform: rotateX(0deg) rotateY(0deg); }
+    25%      { -webkit-transform: rotateX(180deg)rotateY(180deg)rotateZ(70deg)   ;                           }
+    50%      { -webkit-transform: rotateY(-120deg) rotateZ(-170deg);            }
+    75%      { -webkit-transform:rotateX(180deg) rotateY(180deg) rotateZ(70deg)          }
+    100%      { -webkit-transform: rotateY(-120deg) rotateZ(-170deg)  ;           }
   }
 
 
@@ -341,13 +390,17 @@ p{
   animation-timing-function: ease;
 
 }
+#papaya:hover{
+  z-index:2 !important;
+  color: #F15D27;
+}
 
 @keyframes skewed {
   from,to  {  }
-    25%      { -webkit-transform: rotateY(-180deg) scaleX(2);                           }
-    50%      { -webkit-transform: rotateY(120deg) rotateZ(40deg) scaleY(2);            }
+    25%      { -webkit-transform: rotateY(-180deg);                           }
+    50%      { -webkit-transform: rotateY(120deg) rotateZ(40deg)           }
     75%      { -webkit-transform: rotateY(160deg) rotateX(-180deg) skewY(120deg) );           }
-    100%      { -webkit-transform: rotateY(200deg)scaleX(4);           }
+    100%      { -webkit-transform: rotateY(200deg);           }
   }
 
 
@@ -361,7 +414,9 @@ p{
   transition:0.5s ease;
 }
 
-
+.whole_10:hover{
+color: #F15D27;
+}
 
 #subtract{
    color: white;
