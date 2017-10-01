@@ -11,7 +11,7 @@ $('#add').click(function() {
 	n++;
 
 	// if n is > 5, reset n
-	if(n > 11	) {
+	if(n > 9	) {
 		n = 0;
 	}
 
@@ -21,7 +21,7 @@ $('#add').click(function() {
 	}
 
 	if(n == 2) {
-		$('.whole9').addClass('whole_9');
+		$('.whole3').addClass('whole_3');
 
 		;
 	}
@@ -37,7 +37,7 @@ $('#add').click(function() {
 		;
 	}
 	 if(n == 5) {
-		$('.whole3').addClass('whole_3');
+		$('.whole6').addClass('whole_6');
 
 		;
 	}
@@ -53,7 +53,7 @@ $('#add').click(function() {
 	}
 
 	 if(n == 8) {
-		$('.whole6').addClass('whole_6');
+		$('.whole9').addClass('whole_9');
 
 		;
 	}
@@ -135,9 +135,5 @@ $('body').removeClass();
 		;
 	}
 	  
-});
-$('#add').on('click', function() {
-            $(this).toggleClass('clicked');
-            
 });
 });

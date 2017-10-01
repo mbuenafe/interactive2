@@ -2,28 +2,23 @@ body {
 	background-color: #407CCA;
 	
 }
-a{font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
+a{font-family: "HelveticaNeue-CondensedBold", Helvetica, Arial, sans-serif;
   font-size: 50pt
   color: white;
-  user-select: none; 
 
 
 }
 p{
-	font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
+	font-family: "HelveticaNeue-CondensedBold", Helvetica, Arial, sans-serif;
     color: white;
-    font-size: 90pt;
+    font-size: 65pt;
     margin: auto;
     text-align: center;
     margin-top: calc(50vh - 70px);
-    white-space: nowrap;
-    overflow: hidden;
-    user-select: none; 
-
 }
 
 .item:hover{
-  color: red;
+  color: #F15D27;
 
 }
 
@@ -53,15 +48,14 @@ z-index:555555 !important;
     /*---------AVID DIVA---------*/
 
 #diva{
-  font-size: 140pt;
   color: white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 370px);
+  left: calc(50vw - 150px);
   margin: auto;
   animation-direction: alternate;
   text-align: center;
-  margin-top: calc(50vh - 110px);
+  margin-top: calc(50vh - 70px);
   animation: skewee 7s infinite ease;
     z-index:555555 !important;
 
@@ -100,7 +94,7 @@ z-index:555555 !important;
   color: white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 180px);
+  left: calc(50vw - 90px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -141,7 +135,7 @@ z-index:555555 !important;
   color: white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 200px);
+  left: calc(50vw - 90px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -180,14 +174,13 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
 
     /*---------EVIL OLIVE---------*/
 #olive{
-   font-size: 130pt;
   color:white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 370px);
+  left: calc(50vw - 140px);
   margin: auto;
   text-align: center;
-  margin-top: calc(50vh - 110px);
+  margin-top: calc(50vh - 70px);
   animation: skewy 7s infinite;
   animation-direction: alternate-reverse; 
   animation-timing-function: ease;
@@ -225,7 +218,7 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
   color: white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 230px);
+  left: calc(50vw - 150px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -262,14 +255,13 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
 
 /*---------EMILY'S SASSY LIME---------*/
 #emily{
-  font-size: 130pt;
   color:white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 700px);
+  left: calc(50vw - 350px);
   margin: auto;
   text-align: center;
-  margin-top: calc(50vh - 100px);
+  margin-top: calc(50vh - 70px);
   animation: skewo 7s infinite;
   animation-direction: alternate; 
   animation-timing-function: ease;
@@ -306,7 +298,7 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
   color:white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 540px);
+  left: calc(50vw - 400px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -347,7 +339,7 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
   color:white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 700px);
+  left: calc(50vw - 500px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -385,11 +377,11 @@ from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) }
 
 /*---------NO SIR AWAY A PAPAYA WAR IS ON ---------*/
 #papaya{
-  font-size: 100pt;
+  font-size: 50pt;
   color:white;
   position: absolute;
   top: 0px;
-  left: calc(50vw - 930px);
+  left: calc(50vw - 450px);
   margin: auto;
   text-align: center;
   margin-top: calc(50vh - 70px);
@@ -439,31 +431,7 @@ color: #F15D27;
 }
 
 #subtract:hover{
-  cursor: pointer; 
-  animation:ease;
-     animation-name: pulse;
-
-    animation-duration: 2s;
-
-    animation-iteration-count:infinite;
-}
-
-@keyframes pulse {
-  from {
-    transform: scale3d(1.5, 1.5, 1.5);
-  }
-
-  50% {
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    transform: scale3d(1.5, 1.5, 1.5);
-  }
-}
-
-
-
+  cursor: pointer}
 
 #add{
   color: white;
@@ -478,86 +446,4 @@ color: #F15D27;
 
 #add:hover{
   cursor: pointer;
-    animation:ease;
-     animation-name: pulse;
-
-    animation-duration: 2s;
-
-    animation-iteration-count:infinite;
 }
-
-@keyframes pulse {
-  from {
-    transform: scale3d(1.5, 1.5, 1.5);
-  }
-
-  50% {
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    transform: scale3d(1.5, 1.5, 1.5);
-  }
-}
-
-
-
-
-
-
-
-
-.bg-0{
-  background-color: #F0E6D0;
-  transition: all ease 500ms;
-}
-
-.bg-1{
-  background-color: #FFCE00;
-  transition: all ease 500ms;
-}
-.bg-2{
-  background-color: #B3DCB9;
-  transition: all ease 500ms;
-}
-.bg-3{
-  background-color: #EB224A;
-  transition: all ease 500ms;
-}
-.bg-4{
-  background-color: #355C7D;
-  transition: all ease 500ms;
-}
-.bg-5{
-  background-color: #DCEBC2;
-  transition: all ease 500ms;
-}
-
-.bg-6{
-  background-color: #D49F0B;
-  transition: all ease 500ms;
-}
-
-.bg-7{
-  background-color: #00483B;
-  transition: all ease 500ms;
-}
-
-.bg-8{
-  background-color: #23346B;
-  transition: all ease 500ms;
-}
-
-.bg-9{
-  background-color: #001FFF;
-  transition: all ease 500ms;
-}
-.bg-10{
-  background-color: #FF99CC;
-  transition: all ease 500ms;
-}
-.bg-11{
-  background-color: #33FFFF;
-  transition: all ease 500ms;
-}
-
