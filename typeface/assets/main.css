@@ -5,8 +5,8 @@
     padding-bottom: 300px;
     position: absolute;
     background-color: blue;
-display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
     overflow-x:hidden;
 }
 
