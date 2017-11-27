@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, img{
+  width: 100%;
+  height: 100%
+}
+
+body{
+  background-color: black;
+  overflow-x:hidden;
+}
+
+li {
+  font-family: 'bebas_neueregular';
+  display: inline-block;
+  letter-spacing: 0.9pt;
+  font-size: 16pt;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#work{
+
+  text-decoration: none;
+  color: white;
+}
+
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+
+.menu {
+    width: 90%;
+    max-width: 960px;
+    margin: 5px 5%;
+}
+
+.menu-items {
+    display: inline-block;
+}
+
+.sitename{
+  font-family: 'bebas_neueregular';
+  letter-spacing: 0.9pt;
+  font-size: 16pt;
+}
+
+#title{
+    font-family: 'bebas_neueregular';
+    letter-spacing: 2.9pt;
+    font-size: 55pt;
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 52%;
+    left: 5%;
+    line-height: 180%;
+}
+
+
+/* full width/height container */
+#slides-container {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+ 
+/* double the height/width of a viewport */
+#slides {
+    width: 200%;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.slide {
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+}
+
+.slide-3 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+}
+#slide-1 {
+    background-color: ;
+}
+#slide-2 {
+     background-color: ;
+      transform: translate(100%,0%);
+}
+#slide-3 {
+     background-color: ;
+      transform: translate(200%,0%);
+      z-index: -1;
+}
+#slide-4 {
+   background-color: ;
+    transform: translate(300%,0%);
+    z-index: -9999;
+}
+
+#slide-5 {
+   background-color:  ;
+    transform: translate(400%,0%);
+    z-index: -9999;
+}
+
+#slide-6 {
+   background-color: ;
+    transform: translate(500%,0%);
+    z-index: -9999;
+}
+#slide-7 {
+   background-color: red;
+    transform: translate(600%,0%);
+    z-index: -9999;
+}
+#video{
+    width: 120%;
+    height: 130%;
+    margin-left: -125px;
+    margin-top:-150px;
+}
+
+
+#datetime{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 15pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:750px;
+    left: 45%;
+    line-height: 180%;
+  transform: rotate(-270deg);
+}
+
+#sfmoma{
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 15pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:1090px;
+    left: 45%;
+    line-height: 180%;
+  transform: rotate(-270deg);
+}
+
+#floor{
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 15pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:1450px;
+    left: 45%;
+    line-height: 180%;
+    transform: rotate(-270deg);
+}
+
+#robert{
+    width:900px; 
+    height: auto;
+}
+
+
+#biography{
+font-family: freight-text-pro, serif;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    top: 0px;
+    color: white;
+    position: absolute;
+    left: 970px;
+    top: 40px;
+    line-height: 176%;
+  }
+
+
+.caption1{
+font-family: freight-text-pro, serif;
+    font-size: 13px;
+    color: white;
+    font-weight: 300;
+    top: 0px;
+    color:black;
+    position: absolute;
+    line-height: 155%;
+    text-align: left; 
+    z-index: 1;
+    left: 75%;
+    top: 30%
+  }
+ 
+ #persimmoncap{
+  left:63.5%; 
+ } 
+
+ #susancap{
+  left:56%; 
+ } 
+
+  #monocap{
+  left:77%; 
+ }
+
+ #bedcap{
+  left:56%; 
+ }  
+
+.worktitle{
+font-family: 'bebas_neueregular';
+    font-size: 22px;
+    font-weight: 300;
+    top: 0px;
+    color: black;
+    position: absolute;
+    line-height: 155%;
+    text-align: left;
+    z-index: 1;
+    left: 75%;
+    top: 24%;
+    letter-spacing: 1.9pt;
+}
+
+  
+
+#square{
+  width: 300px;
+  height:400px;
+  background-color:black;
+  position: absolute;
+  left: 970px;
+    top: 40px;
+}
+
+#collection{
+  position: absolute;
+  width:479px;
+  height: 400px;
+}
+
+#persimmon{
+  position: absolute;
+  width: 400px;
+  height:533px;
+}
+
+#bed{
+  z-index: 10000;
+  position: absolute;
+  width: 300px;
+  height:678px;
+}
+
+#susan{
+  z-index: 9999;
+  position: absolute;
+  width: 300px;
+  height: 676px;
+}
+
+#monogram{
+  z-index: 10000;
+  position: absolute;
+  width: 508px;
+  height: 400px;
+}
+
+
+#youbegin{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 450px
+   
+}
+
+
+#most{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+/*    width: 100%;*/
+    top: -20px
+   
+}
+
+#fright{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 550px
+   
+}
+
+#fear{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: -20px
+   
+}
+
+#action{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 45%;
+   
+}
+
+#ego{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    line-height: 100pt;
+    font-size: 76pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 7%;
+   
+}
+
+
+
+#subconscious{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 60pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 650px;
+    left: 675px;
+   
+}
+
+#helper{
+  position:absolute;
+  width: 25px;
+  height: 3000px;
+  background-color: red;
+  z-index: 1;
+}
+
+#counter{
+  background-color: blue;
+  width: 25px;
+  height: 1165px;
+  z-index: 100;
+}
+
+
+.thumnbnail{
+    z-index: 10000;
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: white;
+   transition: 2s opacity ease-in-out;
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+ z-index: 10000;
+  position: absolute;
+  margin: auto;
+top: 0;
+left:0;
+right:200px;
+bottom: 0;
+  max-height: 730px;
+  width:auto;
+  height: auto;
+  transition: 2s opacity ease-in-out;
+}
+
+#mute{
+  position: fixed;
+  z-index: 9999999;
+  top: 97%;
+  opacity: 0.5
+
+}
+
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+   transition: 2s opacity ease-in-out;
+
+
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+/** SPEAKER MUTE **/
+button {
+    font-family: 'bebas_neueregular';
+    font-size: 15px;
+    letter-spacing: 0.5pt;
+    font-weight: 100;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+}
