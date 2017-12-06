@@ -28,6 +28,15 @@ a{
   color: white;
 }
 
+.thumbnail { transition: all .3s ease-in-out; }
+
+.thumbnail:hover {
+  box-shadow: 0 0 5px rgb(217, 217, 217);
+  transform: scale(1.05);  
+}
+
+
+
 #work{
 
   text-decoration: none;
@@ -71,6 +80,21 @@ a{
     left: 5%;
     line-height: 180%;
 }
+
+
+#title2{
+    font-family: 'bebas_neueregular';
+    letter-spacing: 2.9pt;
+    font-size: 55pt;
+    position: absolute;
+    color: white;
+    width: 100%;
+    z-index: 1;
+     top: 52%;
+    left: 11%;
+    line-height: 180%;
+}
+
 
 
 /* full width/height container */
@@ -134,7 +158,7 @@ a{
     z-index: -9999;
 }
 #slide-7 {
-   background-color: red;
+   background-color:;
     transform: translate(600%,0%);
     z-index: -9999;
 }
@@ -159,6 +183,19 @@ a{
   transform: rotate(-270deg);
 }
 
+#datetime2{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 50pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:750px;
+    left: 10.5%;
+    top: 40%;
+    line-height: 180%;
+}
+
 #sfmoma{
     font-family: 'bebas_neueregular';
     letter-spacing: 0.9pt;
@@ -171,6 +208,21 @@ a{
     line-height: 180%;
   transform: rotate(-270deg);
 }
+
+
+#sfmoma2{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 50pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:750px;
+    left: 53%;
+    top: 40%;
+    line-height: 180%;
+}
+
 
 #floor{
     font-family: 'bebas_neueregular';
@@ -185,6 +237,19 @@ a{
     transform: rotate(-270deg);
 }
 
+#floor2{  
+    font-family: 'bebas_neueregular';
+    letter-spacing: 0.9pt;
+    font-size: 50pt;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top:750px;
+    left: 80.3%;
+    top: 40%;
+    line-height: 180%;
+}
+
 #robert{
     width:900px; 
     height: auto;
@@ -192,18 +257,18 @@ a{
 
 
 #biography{
-font-family: freight-text-pro, serif;
-    font-style: italic;
-    font-size: 13px;
+    font-family: freight-text-pro, serif;
+    font-size: 14px;
     color: white;
-    letter-spacing: 0.7px;
     font-weight: 300;
     top: 0px;
-    color: white;
+    color:white;
     position: absolute;
+    text-align: left; 
     left: 970px;
     top: 40px;
     line-height: 176%;
+    letter-spacing: 0.6px;
   }
 
 
@@ -256,7 +321,7 @@ font-family: 'bebas_neueregular';
   
 
 #square{
-  width: 300px;
+  width: 400px;
   height:400px;
   background-color:black;
   position: absolute;
@@ -355,14 +420,13 @@ font-family: 'bebas_neueregular';
 }
 
 #ego{  
-    font-family: 'bebas_neueregular';
+      font-family: 'bebas_neueregular';
     letter-spacing: 0.9pt;
-    line-height: 100pt;
-    font-size: 76pt;
+    font-size: 60pt;
     position: fixed;
     color: white;
     width: 100%;
-    top: 7%;
+    top: 20%;
    
 }
 
@@ -417,7 +481,8 @@ font-family: 'bebas_neueregular';
   text-align: center;
   top: 0;
   left: 0;
-  background: white;
+  background-color:rgba(255,255,255,1) ;
+  cursor: default;
    transition: 2s opacity ease-in-out;
 }
 
@@ -442,6 +507,22 @@ bottom: 0;
   top: 97%;
   opacity: 0.5
 
+}
+
+.exit{
+  font-family: helvetica;
+  font-weight: 700;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    top: 0px;
+    color:black;
+    position: absolute;
+    line-height: 155%;
+    text-align: left; 
+    z-index: 1;
+    left:97%;
+    cursor: pointer;
 }
 
 

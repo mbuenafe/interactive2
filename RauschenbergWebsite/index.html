@@ -46,6 +46,7 @@
    <!-- lightbox container hidden with CSS -->
           <div>
           <a href="#_" class="lightbox" id="img1">
+            <p class="exit">x</p>
             <img src="img/monogram.jpg">
 
              <p class="worktitle" id="monocap"> Monogram, 1955 &#8211 1959</p>
@@ -59,12 +60,17 @@
             <br><br>
 
             42 x 63 1/4 x 64 1/2 inches (106.7 x 160.7 x 163.8 cm)
+
+            <br><br>
+
+            -Rauschenberg Foundation
             </p>
           </a>  
           </div>
 
           <div>
             <a href="#_" class="lightbox" id="img2">
+            <p class="exit">x</p>
             <img src="img/bed.png">
 
             <p class="worktitle" id="bedcap"> Bed, 1955</p>
@@ -78,6 +84,10 @@
             <br><br>
 
            75 1/4 x 31 1/2 x 8 inches (191.1 x 80 x 20.3 cm)
+
+           <br><br>
+
+           -MOMA
             </p>
 
 
@@ -86,6 +96,7 @@
 
          <div>
             <a href="#_" class="lightbox" id="img3">
+            <p class="exit">x</p>
             <img src="img/susan.png">
 
             <p class="worktitle" id="susancap"> Untitled (Double Rauschenberg), 1950</p>
@@ -99,6 +110,11 @@
             <br><br>
 
             82 1/2 x 36 1/4 inches (209.6 x 92.1 cm)
+            <br><br>
+            -MOMA
+
+
+
             </p>
           </a> 
           </div>
@@ -108,6 +124,7 @@
 
           <div>
             <a href="#_" class="lightbox" id="img4">
+            <p class="exit">x</p>
             <img src="img/persimmon.jpg">
 
             <p class="worktitle" id="persimmoncap"> Persimmon, 1964</p>
@@ -119,6 +136,11 @@
             <br><br>
 
             66 x 50 inches (167.6 x 127 cm)
+                <br><br>
+
+            -Dean Rader
+
+
             </p>
           </a> 
           </div>
@@ -128,6 +150,7 @@
 
           <div>
             <a href="#_" class="lightbox" id="img5">
+            <p class="exit">x</p>
             <img src="img/collection.jpg">
 
             <p class="worktitle"> Collection, 1954/1955</p>
@@ -137,6 +160,9 @@
             <br>
 
             Oil, paper, fabric, newspaper, printed reproductions,<br> wood, metal, and mirror on three canvas panels <br><br>80 x 96 x 3 1/2 inches (203.2 x 243.8 x 8.9 cm)
+            <br><br>
+
+            -SFMOMA
             </p>
              </a> 
           </div>
@@ -156,7 +182,9 @@
  				 <source src="img/rauschenberg.mp4" type="video/mp4">
 			</video>
 
-    		<div id="title">
+    		<div id="title"
+    		data-0="transform:translate(0%,0%);opacity:1;"
+        	data-900="transform:translate(80%,0%);opacity:0;">
 				<h1>ROBERT RAUSCHENBERG: ERASING THE RULES</h1>
 			</div>
       
@@ -171,7 +199,10 @@
         	<p id="biography"
         	data-1000="opacity:0;"
         	data-1100="opacity:1"
-        	>Robert Rauschenberg’s art has always been<br>  one of thoughtful inclusion. Working in a wide<br> range of subjects, styles, materials, and tech- <br>niques, Rauschenberg has been called a fore-<br>runner of essentially every postwar movement <br> since Abstract Expressionism. He remained, <br> however, independent of any particular affili-<br>ation. At the time that he began making art in <br> the late  1940s and early 1950s, his belief that  <br> “painting relates to both art and life” presented a <br>direct challenge to the prevalent modernist aesthetic.
+        	>Robert Rauschenberg’s art has always been one<br> of thoughtful inclusion. Working in a wide range <br> of subjects, styles, materials, and techniques, <br> Rauschenberg has been called a forerunner  of <br> movements since Abstract Expressionism. <br> He remained, however, independent of any <br> particular affiliation. At the time that he began <br> making art in  the late  1940s   and early 1950s, his <br> belief that “painting relates to both art and life” <br> presented a direct challenge to the  known <br> modernist aesthetic.
+        	<br><br>
+
+        	– Rauschenberg Foundation
         	</p>	
 
         	<div id="square"
@@ -179,7 +210,7 @@
    			data-800=""
    			data-900=""
    			data-1000=""
-   			data-1190="transform:translate(0px,400px);"></div>
+   			data-1170="transform:translate(0px,400px);"></div>
         </div>
 
 
@@ -194,8 +225,8 @@
         	</div>
 
         	<p id="youbegin"
-        	data-2100="opacity:0;"
-        	data-2222="opacity:1;transform:translate(150px, 0)"
+        	data-1280="opacity:0;"
+        	data-1580="opacity:1;transform:translate(150px, 0)"
         	> YOU BEGIN<br> WITH THE POSSIBILTIES <br>OF THE MATERIAL.
         	</p>
 
@@ -242,8 +273,8 @@
         	</div>
 
         	<p id="fear"
-        	data-3490="opacity:0;"
-        	data-3770="opacity:1;transform:translate(1400px, 0)"
+        	data-3200="opacity:0;"
+        	data-3550="opacity:1;transform:translate(1400px, 0)"
         	> AN AWFUL LOT OF TIME <br>  IS SORT OF CONSUMED IN <br> APPREHENSION, FEAR,<br> & WORRY
         	</p>
 
@@ -265,7 +296,7 @@
 
         	<p id="action"
         	data-3700="opacity:0;"
-        	data-3920="opacity:1;transform:translate(940px, 0)"
+        	data-4020="opacity:1;transform:translate(940px, 0)"
         	> THAT COULD BE<br> USED IN ACTION.
         	</p>
 
@@ -296,6 +327,15 @@
           <video id="video" autoplay controls loop>
          <source src="img/pelican.mp4" type="video/mp4">
           </video>
+
+            <div id="title2"
+            data-5100="opacity:0;"
+          data-5460="opacity:1;">
+        <h1>ROBERT RAUSCHENBERG: ERASING THE RULES</h1>
+        <p id="datetime2"> 11.18.17 &#8211 3.25.18 </p>
+        <p id='sfmoma2'> SF MOMA </p>
+          <p id='floor2'> FLOOR 4 </p>
+
             
         </div>
 
@@ -307,7 +347,9 @@
 <div
 	data-0="opacity:0;"
    	data-800="opacity:0;"
-   	data-1110="opacity:1;">
+   	data-1110="opacity:1;"
+    data-5235="opacity:1;"
+    data-5335="opacity:0;">
 	<p id="datetime"> 11.18.17 &#8211 3.25.18 </p>
 	<p id='sfmoma'> SF MOMA </p>
 	<p id='floor'> FLOOR 4 </p>
